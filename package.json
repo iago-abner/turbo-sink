@@ -2,6 +2,8 @@
   "private": true,
   "scripts": {
     "build": "turbo build",
+    "build:api": "turbo build --scope='api'",
+    "build:storefront": "turbo build --scope='storefront'",
     "clean": "turbo clean",
     "dev": "turbo dev --no-cache  --continue --concurrency 11",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
